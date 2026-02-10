@@ -1,4 +1,4 @@
-package kr.spartaclub.Lv1;
+package kr.spartaclub.Algorithm.Lv1;
 
 // 문제 설명
 //정수 num1과 num2가 주어질 때, num1에서 num2를 뺀 값을 return하도록 soltuion 함수를 완성해주세요.
@@ -18,5 +18,18 @@ package kr.spartaclub.Lv1;
 //
 //num1이 100이고 num2가 2이므로 100 - 2 = 98을 return합니다.
 
+/* 프로그래머스 제출 답안
+class Solution {
+   public int solution(int num1, int num2) {
+      int answer = num1 - num2;
+        return answer;
+    }
+}
+ */
+
 public class 두수의차 {
+    public int solution(int num1, int num2){
+        int answer = num1 - num2;
+        return answer;
+    }
 }
